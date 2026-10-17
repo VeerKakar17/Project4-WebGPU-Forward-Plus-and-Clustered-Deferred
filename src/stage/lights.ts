@@ -111,7 +111,7 @@ export class Lights {
 
     camera: Camera;
 
-    numLights = 1000;
+    numLights = 2;
     static readonly maxNumLights = 5000;
     static readonly numFloatsPerLight = 8; // vec3f is aligned at 16 byte boundaries
 
